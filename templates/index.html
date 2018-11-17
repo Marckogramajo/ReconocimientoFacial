@@ -5,12 +5,12 @@
 {% block content %}
 <div id="particles-js"></div>
 <div class="container" >
-  <div class="col-lg-12" style="background: rgba(0,0,0,0.6);margin-top:3em;margin-bottom:5em;padding-top:1em;padding-bottom:3em;color:#fff;border-radius:10px;-webkit-box-shadow: 2px 2px 15px 0px rgba(0, 3, 0, 0.7);
+  <div class="col-lg-12" style="background: rgba(0,0,0,1);margin-top:1em;margin-bottom:5em;padding-top:1em;padding-bottom:3em;color:#fff;border-radius:10px;-webkit-box-shadow: 2px 2px 15px 0px rgba(0, 3, 0, 0.7);
 -moz-box-shadow:    2px 2px 15px 0px rgba(0, 3, 0, 0.7);
 box-shadow:         2px 2px 15px 0px rgba(0, 3, 0, 0.7);">
     <div class="col-lg-12">
-      <a href="/admin"><h5 class="text-right"><i class="fa fa-user-circle" aria-hidden="true"></i> Admin Panel</h5></a>
-      <h1 class="text-center section-title" style="margin-bottom:2em">Smart Search with Face Recognition.</h1>
+      <a href="/admin"><h5 class="text-right"><i class="fa fa-user-circle" aria-hidden="true"></i> Panel de Admin</h5></a>
+      <h1 class="text-center section-title" style="margin-bottom:2em">Búsqueda con Reconocimiento Facial</h1>
     </div>
     <style>
       h4{
@@ -49,44 +49,21 @@ box-shadow:         2px 2px 15px 0px rgba(0, 3, 0, 0.7);">
         }
     </style>
 
-    <div class="row">
-      <div class="col-md-5" style="border-right: 2px solid;">
-        <h3 class="text-center">Using Eigenfaces with SVM</h3>
-        <div class="col-md-6">
-          <form id="target" action="detect_image" method="POST" enctype="multipart/form-data">
-            {% csrf_token %}
-            <label for="file-input" style="cursor:pointer">
-              <img src="{% static 'img/photo.png' %}" class="img-responsive" />
-            </label>
-            <input id="file-input" name="userImage" type="file" style="display: none;" accept="image/*"/>
-          </form>
-          <script>
-            $('#file-input').change(function() {
-              $('#target').submit();
-            });
-          </script>
-          <h4 class="text-center">Detect Image</h4>
-        </div>
-        <div class="col-md-6">
-          <a href="eigen_train"><img src="{% static 'img/trainer.png' %}" class="img-responsive" /></a>
-          <h4 class="text-center">Train the Classifier</h4>
-        </div>
-      </div>
-      <div class="col-md-7">
-        <h3 class="text-center">With OpenCV, LBPH</h3>
+    <div class="row" >
+      <div class="col-md-12">
         <div class="col-md-4">
-          <a href="/detect"><img src="{% static 'img/webcam.png' %}" class="img-responsive" /></a>
-          <h4 class="text-center">Detect By Webcam</h4>
+          <a href="/detect"><img src="{% static 'img/webcam2.png' %}" class="img-responsive" /></a>
+          <h4 class="text-center">Camara</h4>
         </div>
         <div class="col-md-4">
           <a href="/trainer"><img src="{% static 'img/trainer.png' %}" class="img-responsive" /></a>
-          <h4 class="text-center">Train The Classifier</h4>
+          <h4 class="text-center">Entrenamiento</h4>
         </div>
         <div class="col-md-4">
           <button type="button" style="background:transparent;border:none" data-toggle="modal" data-target="#myModal">
-            <img src="{% static 'img/add.png' %}" class="img-responsive" />
+            <img src="{% static 'img/add2.png' %}" class="img-responsive" />
           </button>
-          <h4 class="text-center">Create Dataset</h4>
+          <h4 class="text-center">Agregar Persona</h4>
         </div>
       </div>
     </div>
@@ -101,24 +78,23 @@ box-shadow:         2px 2px 15px 0px rgba(0, 3, 0, 0.7);">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Input unique id and wait for webcam</h4>
+        <h4 class="modal-title" id="myModalLabel">Ingrese una identificación única</h4>
       </div>
       <div class="modal-body">
         <ul>
-          <li>For higher accuracy, make sure to stay in room with good lightning.</li>
-          <li>Please remove any type of accesories from face.</li>
-          <li>Make sure your face in clearly visible in camera.</li>
-          <li>Make sure your hair is not blocking the face.</li>
-          <li>Make sure no other faces are within the cam frame.
+          <li>Para mayor precisión matener una buena iluminación en la habitacion.</li>
+          <li>Por favor retire cualquier accesorio del rostro .</li>
+          <li>Su rostro debe de estar claramente visible a la camara.</li>
+          <li>Asegurece que el cabello no bloquee el rostro.</li>
+          <li>Realizar el ingreso de cada persona de una en una.
         </ul>
         <hr/>
-        <form action="/create_dataset" method="POST">
+        <form action="/agregar" method="POST">
           {% csrf_token %}
           <div class="form-group">
-            <label for="inputId">Enter Unique ID*</label>
-            <input type="text" class="form-control" name="userId" id="inputId" placeholder="Enter Id">
+            <input type="text" class="form-control" name="userId" id="inputId" placeholder="Ingrese DPI">
           </div>
-          <button type="submit" class="btn btn-warning">Submit</button>
+          <button type="submit" class="btn btn-warning">Iniciar</button>
         </form>
       </div>
     </div>
