@@ -72,7 +72,7 @@ ___
 # Guía de Uso
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=1Zg_VZLEf5PRFL3aHRE90uGY_83yTNaKB">
+	<img src="http://drive.google.com/uc?export=view&id=1Zg_VZLEf5PRFL3aHRE90uGY_83yTNaKB">
 </p>
 
 Al iniciar se vera una pantalla con tres botones los cuales se identifican con :
@@ -82,7 +82,7 @@ indicaciones dadas en el modal.
 
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=1zcTSiRKQ-ivfvrsI__-gc6_YR7tFbxOF">
+	<img src="http://drive.google.com/uc?export=view&id=1zcTSiRKQ-ivfvrsI__-gc6_YR7tFbxOF">
 </p>
 
 
@@ -90,7 +90,7 @@ Al iniciar la captura de rostros se vera un recuadro de color verde el el cual s
 fotografiá tomada espera hasta que el contador llene a 36 capturas.
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=18IHw66zIvZ3hC_gzXYX3kQndvf9u81-m">
+	<img src="http://drive.google.com/uc?export=view&id=18IHw66zIvZ3hC_gzXYX3kQndvf9u81-m">
 </p>
 
 
@@ -98,28 +98,28 @@ Luego de realizar las capturas se debe llenar un formulario utilizando el id asi
 
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=1YT1-nX4SZ8DrJauBIDVR_KV0AAwBFJlE">
+	<img src="http://drive.google.com/uc?export=view&id=1YT1-nX4SZ8DrJauBIDVR_KV0AAwBFJlE">
 </p>
 
 Entrenamiento: El cual crea el modelo utilizando las fotografiás capturadas en el inciso Agregar
 personas basta con dar un clic sobre el botón.
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=1JgjxXG6IoByzTeDE3Ab1dtPVMCcXhIQy">
+	<img src="http://drive.google.com/uc?export=view&id=1JgjxXG6IoByzTeDE3Ab1dtPVMCcXhIQy">
 </p>
 
 Camara: Es inciso abre la cámara y enviá los frame capturados a comparar con el modelo para realizar
 la identificación.
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=1oIfyeL3V4d5gHNG6EDieYuHnInGH1xks">
+	<img src="http://drive.google.com/uc?export=view&id=1oIfyeL3V4d5gHNG6EDieYuHnInGH1xks">
 </p>
 
 Cuando el rostro no tienen coincidencia con uno de los capturados se muestra el texto “Desconocido”
 de color rojo.
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=1Ob_FG5eQkSLpsLqWuD0mG2K20hZgu6N7">
+	<img src="http://drive.google.com/uc?export=view&id=1Ob_FG5eQkSLpsLqWuD0mG2K20hZgu6N7">
 </p>
 
 Cuando el rostro tienen coincidencia con uno de los capturados se muestra el texto “Detectado” de
@@ -127,7 +127,7 @@ color Verde. Y se muestra un pagina con los detalles de la persona ingresados en
 inciso agregar persona.
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=1uroNNAEERMq_qEsID4fvus6BMNvPUXfT">
+	<img src="http://drive.google.com/uc?export=view&id=1uroNNAEERMq_qEsID4fvus6BMNvPUXfT">
 </p>
 ___
 
