@@ -1,5 +1,5 @@
 # Reconocimiento-Facial
-Detección de rostro y reconocimiento facial frontal (Entorno Controlado).
+Detección de rostro y reconocimiento facial frontal (Entorno Controlado, local).
 
 El principal objetivo de este Proyecto es el diseño de un sistema para identificar
 personas (mediante el reconocimiento de caras frontales) y su aplicación a un
