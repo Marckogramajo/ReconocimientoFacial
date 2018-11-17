@@ -18,7 +18,7 @@ El proceso de detección y reconocimiento consta de cuatro módulos principales 
 El siguiente esquema resume el proceso  que se utiliza para detectar y reconocer un rostro.
 
 <p align="center">
-	<img src="https://drive.google.com/open?id=1PlziuDb9X1hQrhdl0m7mZ6_lFJ9jDx0o">
+	<img src="http://drive.google.com/uc?export=view&id=1PlziuDb9X1hQrhdl0m7mZ6_lFJ9jDx0o">
 </p>
 
 El software de detección y reconocimiento de rostros tiene mucho camino por recorrer.
