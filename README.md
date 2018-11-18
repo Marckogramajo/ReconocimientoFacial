@@ -11,10 +11,14 @@ ___
 Este tipo de tecnologías no es precisamente un fenómeno reciente. Los primeros experimentos con esta tecnología se remontan a la década de 1960.
 El proceso de detección y reconocimiento consta de cuatro módulos principales y varios pasos intermedios:
 
-1)Detección del rostro: detecta que hay una cara en la imagen, sin identificarla. Si se trata de un vídeo, también es posible hacer un seguimiento del rostro. Proporciona la localización y la escala a la que encontramos la cara.
-2)Acondicionamiento y normalización: localiza las componentes del rostro y, mediante transformaciones geométricas, lo normaliza respecto propiedades geométricas, como el tamaño y la pose, y fotométricas, como la iluminación. Para normalizar las imágenes de rostros, se pueden seguir diferentes reglas, como la distancia entre las pupilas, la posición de la nariz, o la distancia entre las comisuras de los labios.
-3)Extracción de características: proporciona información para distinguir entre los rostros de diferentes personas según variaciones geométricas o fotométricas.
-4)Reconocimiento: el patrón facial de características extraído se compara con los vectores de características extraídos de las caras de la base de datos. Si encuentra con un porcentaje elevado de similitud, devuelve la identidad del rostro; si no, indica que es una cara desconocida.
+- Detección del rostro: detecta que hay una cara en la imagen, sin identificarla. Si se trata de un vídeo, también es posible hacer un seguimiento del rostro. Proporciona la localización y la escala a la que encontramos la cara.
+
+- Acondicionamiento y normalización: localiza las componentes del rostro y, mediante transformaciones geométricas, lo normaliza respecto propiedades geométricas, como el tamaño y la pose, y fotométricas, como la iluminación. Para normalizar las imágenes de rostros, se pueden seguir diferentes reglas, como la distancia entre las pupilas, la posición de la nariz, o la distancia entre las comisuras de los labios.
+
+- Extracción de características: proporciona información para distinguir entre los rostros de diferentes personas según variaciones geométricas o fotométricas.
+
+- Reconocimiento: el patrón facial de características extraído se compara con los vectores de características extraídos de las caras de la base de datos. Si encuentra con un porcentaje elevado de similitud, devuelve la identidad del rostro; si no, indica que es una cara desconocida.
+
 El siguiente esquema resume el proceso  que se utiliza para detectar y reconocer un rostro.
 
 <p align="center">
