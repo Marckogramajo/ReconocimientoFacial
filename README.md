@@ -36,11 +36,11 @@ ___
 
 # ********************* Requerimientos *************************
 Instalar :
-	Python version: 2.7.15
-	Django version: 1.11.9
-	OpenCV version: 3.2
-	Sklearn version: 0.19.1
-	Mysql Database
+- Python version: 2.7.15
+- Django version: 1.11.9
+- OpenCV version: 3.2
+- Sklearn version: 0.19.1
+- Mysql Database
 
 # Configuración de mysql
 	Crear un usuario con contraseña (superusuario).
@@ -64,7 +64,7 @@ Instalar :
 	
 
 # Iniciar el servidor de desarrollo en tu navegador.
-		http://127.0.0.1:8000/
+   http://127.0.0.1:8000/
 
 
 ___
@@ -135,10 +135,10 @@ ___
 # Otros Archivos
 
 	# DATASET
-http://drive.google.com/uc?export=view&id=1b30BoA82X7JFV_xzQDW6fuRa8lbOCXPK	
+  http://drive.google.com/uc?export=view&id=1b30BoA82X7JFV_xzQDW6fuRa8lbOCXPK	
 
 	# Modelo:
-http://drive.google.com/uc?export=view&id=1U9DUsElwBME-PfPFvojZNZ-1azE8TmlV
+  http://drive.google.com/uc?export=view&id=1U9DUsElwBME-PfPFvojZNZ-1azE8TmlV
 
 ___
 
