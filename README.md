@@ -63,7 +63,7 @@ Instalar :
 		python manage.py runserver --nothreading --noreload
 	
 
-#Iniciar el servidor de desarrollo en tu navegador.
+# Iniciar el servidor de desarrollo en tu navegador.
 		http://127.0.0.1:8000/
 
 
@@ -134,11 +134,11 @@ ___
 
 # Otros Archivos
 
-	DATASET
-	https://drive.google.com/open?id=1b30BoA82X7JFV_xzQDW6fuRa8lbOCXPK	
+	# DATASET
+http://drive.google.com/uc?export=view&id=1b30BoA82X7JFV_xzQDW6fuRa8lbOCXPK	
 
-	Modelo:
-		https://drive.google.com/open?id=1U9DUsElwBME-PfPFvojZNZ-1azE8TmlV
+	# Modelo:
+http://drive.google.com/uc?export=view&id=1U9DUsElwBME-PfPFvojZNZ-1azE8TmlV
 
 ___
 
