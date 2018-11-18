@@ -31,9 +31,12 @@ ___
 # Un poco de funcionamiento interno:
 El proyecto cuenta con 4 (faceRecog, ml, records, static y templates) carpetas principales un favicon, el archivo manage.py para iniciar el servidor y el archivo readme.
 En la carpeta templates se encuentral los archivos html que basicamente son archivo estaticos que tienen los elementos (div, etiquetas, botnoes, modales entre otros) que se van a desplegar en la pagina web. Cuenta con 5 paginas details, error. Index. Layout y records. 
+
 Para mejorar la presentación de las paginas se utiliza bootstrap, las cuales tienen sus css, fuentes y jquerys para las animaciones esto se encuentra el carpeta static la cual también tiene una carpeta llamada img donde están almacenadas las imágenes que se usan para la pagina web y en esta carpeta también se guardan las imágenes de cada persona que se agrega esta imagen se muestra en la pagina de details
 para iniciar el servidor web se necesita de migraciones las cuales realiza django esto se refiere a imporat los models, las urls  y las vistas esto se encuentra en la carpeta records. 
+
 Dentro de la carpeta ml se encuentra se encuentran 2 carpetas importantes una se llama dataset es donde se almacenan las imágenes de todos los rostos de las personas que se agregan estas imágenes son las que utilizan el entrenamiento. También se encuentra la carpeta regnizer que es donde se crea el archivo resultante del entrenamiento (trainingData.yml) en este archivo se encuentra los datos de los rostos de la careta dataset.
+
 Dentro del la carpeta faceRecog se encuentra los archivos de python encargados de realizar la conexión con mysql y crear las tablas (settings). También el archivo de views.py que son las vistas es donde se realiza los import y las llamadas a opencv para agregar, entrenar y identificar el modelo.
 
 ___
@@ -47,23 +50,23 @@ Instalar :
 - Mysql Database
 
 # Configuración de mysql
-	Crear un usuario con contraseña (superusuario).
-	crear una base de datos (cualquier nombre).
-	Modificar el archivo settings.py en la carpeta faceRecog.
-	Modificar la configuración del objeto BATABASES con los de su maquina.
-	modificar las lineas:
-		'NAME': 'nombre de tu ',
+	- Crear un usuario con contraseña (superusuario).
+	- crear una base de datos (cualquier nombre).
+	- Modificar el archivo settings.py en la carpeta faceRecog.
+	- Modificar la configuración del objeto BATABASES con los de su maquina.
+	- modificar las lineas:
+		'NAME': 'nombre de tu base de datos ',
 		'USER': 'su_usuario',
 		'PASSWORD': 'clave_de_tu_usuario',
 		'HOST': '127.0.0.1',
 		'PORT': '8889'(verificar el puerto de mysql por defaul es 3306)
 
 # Ejecutar el entorno Django (en el directorio del proyecto)
-	Crear las migraciones con el comando:
+	- Crear las migraciones con el comando:
 		python manage.py migrate
-	Crear un usuario en django:
+	- Crear un usuario en django:
 		python manage.py createsuperuser
-	Ejecutar el servidor:
+	- Ejecutar el servidor:
 		python manage.py runserver --nothreading --noreload
 	
 
