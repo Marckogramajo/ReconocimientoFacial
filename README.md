@@ -42,12 +42,17 @@ Dentro del la carpeta faceRecog se encuentra los archivos de python encargados d
 ___
 
 # ********************* Requerimientos *************************
-Instalar :
+
+**Instalar :**
 - Python version: 2.7.15
 - Django version: 1.11.9
 - OpenCV version: 3.2
 - Sklearn version: 0.19.1
 - Mysql Database
+
+**Clonar repositorio**
+  https://github.com/Marckogramajo/ReconocimientoFacial.git
+
 
 # Configuración de mysql
 	- Crear un usuario con contraseña (superusuario).
