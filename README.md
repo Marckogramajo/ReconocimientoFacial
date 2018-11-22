@@ -52,7 +52,9 @@ ___
 
 **Clonar repositorio**
   https://github.com/Marckogramajo/ReconocimientoFacial.git
-
+  
+ **Viedo Tutorial**
+  https://youtu.be/dWwrKvuFDiw
 
 # Configuración de mysql
 	- Crear un usuario con contraseña (superusuario).
